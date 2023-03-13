@@ -23,7 +23,7 @@ abstract public class BaseTest {
     }
 
     @AfterEach
-    public void termDown() {
+    public void tearDown() {
         driver.close();
         driver.quit();
     }
